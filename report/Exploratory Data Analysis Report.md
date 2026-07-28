@@ -1,4 +1,4 @@
-# Sprint 3 – Exploratory Data Analysis Report
+# Exploratory Data Analysis Report
 
 ## Objective
 
