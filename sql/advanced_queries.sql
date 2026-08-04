@@ -110,4 +110,18 @@
 -- group by Movie_length
 -- order by Total_Titles DESC;
 
-
+-- Put Row_number and Rank on the directors with the most titles on Netflix
+with Director_totals as (
+SELECT director, 
+count(*)as Total_counts
+from netflix_titles_exploded
+where director !='Unknown'
+group by director
+order by Total_counts DESC
+)
+select director, Total_counts
+,row_number () over(
+order by total_counts Desc) as [Row Number],
+rank() over(
+order by Total_counts DESC) as Rank
+from Director_totals
