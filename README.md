@@ -19,4 +19,4 @@ The objective is to clean, analyze, visualize, and generate business insights fr
 ## Project Status
 
 🚧 Project in Progress
-70% Completed
+80% Completed
