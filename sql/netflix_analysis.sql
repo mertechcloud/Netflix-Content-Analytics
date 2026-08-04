@@ -48,5 +48,3 @@ SELECT
 Avg(Cast(replace(Duration, 'Season', '')as INTEGER)) as [Average TV Show Seasons]
 from netflix_titles
 where Type='Tv Show'
-
-
