@@ -40,19 +40,19 @@ The analysis explores:
 
 The executive overview provides KPI cards, catalogue growth trends, content-type distribution, and interactive filters.
 
-![Executive Overview](screenshots/dashboard_overview.png)
+![Executive Overview](images/dashboard_overview.png)
 
 ### Content & Contributor Analysis
 
 This page explores countries, genres, ratings, and top contributing directors.
 
-![Content & Contributor Analysis](screenshots/content_analysis.png)
+![Content & Contributor Analysis](images/content_analysis.png)
 
 ### Geographic Analysis
 
 The geographic dashboard visualizes the distribution of Netflix content across contributing countries.
 
-![Geographic Analysis](screenshots/geographic_analysis.png)
+![Geographic Analysis](images/geographic_analysis.png)
 
 ---
 
